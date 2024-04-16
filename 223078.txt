@@ -1,0 +1,71 @@
+ mkdir SI_2024_lab1_223078
+ cd SI_2024_lab1_223078/
+ git init
+ git remote add origin https://github.com/djakovm/SI_2024_lab1_223078.git
+ echo "Martin Djakov, 223078" > README.md
+ git add README.md 
+ git commit -m "Initial commit"
+ nano 223078.txt
+ git add .
+ git status
+ git commit -m "Add starter code"
+ git commit -m "Add starter code"
+ git log
+ git push -u origin master
+ git status
+ git push -u origin master
+ git checkout -b bug1
+ git branch 
+ git checkout master
+ git branch 
+ git checkout -b bug2
+ git branch 
+ git checkout master 
+ nano SILab1_1.java 
+ git branch 
+ git checkout bug1
+ nano SILab1_1.java
+ cat SILab1_1.java 
+ git status 
+ git add .
+ git status
+ git commit -m "Fix wrong condition in filterOddLengthStrings"
+ git log
+ git checkout bug2
+ git log
+ nano SILab1_2.java 
+ cat SILab1_2.java 
+ git status
+ git add .
+ git commit -m "Fix wrong condition in makeBigStringFrom"
+ git checkout bug1
+ nano SILab1Main.java 
+ git status 
+ git add .
+ git commit -m "Call method filterOddLengthStrings"
+ git checkout bug2
+ nano SILab1Main.java 
+ git add .
+ git commit -m "Call method makeBigStringFrom in main class"
+ git branch
+ git push
+ git push -u origin bug2
+ git push -u origin bug1
+ git checkout master 
+ git merge --ff-only bug1
+ git push origin master 
+ git checkout bug2
+ git fetch --all --prune
+ git rebase origin/master
+ git status
+ nano SILab1Main.java 
+ git status
+ git add SILab1Main.java 
+ git rebase --continue 
+ git log
+ git checkout master
+ git merge --ff-only bug2
+ git push origin master 
+ git log
+ nano logs.txt
+
